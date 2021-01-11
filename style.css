@@ -1,12 +1,17 @@
 .nav-link{
-font-size:20px;
-margin-right:40px;
+    
+font-size:15px;
+margin-right:20px;
 border:2px solid #AA7467!important;;
 border-radius:10px;
 background-color:white;
 color:#52474A!important;
 padding-right: 2.5rem!important;
 padding-left: 2.5rem!important;
+}
+
+.welcome-link{
+    margin-right:10px;
 }
 
 .nav-link:hover{
@@ -98,11 +103,22 @@ margin-bottom:20px;
     color:red;
 }
 
+.welcome_nickname{
+    margin-top:20px;
+}
+
+@media screen and (max-width: 1350px) {
+    .nav-link{
+        margin-right:10px;
+        padding-right: 1rem!important;
+        padding-left: 1rem!important;
+        }
+  }
 
 
 @media screen and (max-width: 1220px) {
     .nav-link{
-        margin-right:20px;
+        margin-right:10px;
         padding-right: 1rem!important;
         padding-left: 1rem!important;
         }
