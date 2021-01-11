@@ -86,6 +86,47 @@ margin-bottom:20px;
     text-decoration: underline;
 }
 
-@media screen and (min-width: px) and (max-width: 640px) {
+.row-image{
+    margin-top:20px;
+}
+
+.inscription-p{
+    margin-top:20px;
+}
+
+.loginError{
+    color:red;
+}
+
+
+
+@media screen and (max-width: 1220px) {
+    .nav-link{
+        margin-right:20px;
+        padding-right: 1rem!important;
+        padding-left: 1rem!important;
+        }
+  }
+
+  @media screen and (max-width: 991px) {
+.aside-1{
+    max-height: 300px;
+    margin-top: 10px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+
+}
+
+.card-img-top{
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.nav-link{
+    color:white!important;
+background-color: transparent;
+    }
+    
 
   }
